@@ -1,0 +1,106 @@
+/* Catalog Section */
+.catalogSection {
+
+}
+
+.catalogSection {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 80px 120px 140px 120px;
+  border-bottom: 2px solid black;
+
+  & #browse-and-input {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    align-items: center;
+
+    & #browse-buttons {
+      display: inline-flex;
+      justify-content: space-between;
+      width: 30%;
+    }
+    & #browse-buttons button {
+      box-sizing: content-box;
+      width: 33%;
+      font-weight: 10;
+      font-size: 27px;
+      color: rgb(87, 87, 87);
+      padding: 10px 0px;
+    }
+
+    & #search-bar-div{
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60%;
+      background-color: var(--light-blue);
+      height: 70px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.2), -5px 5px 5px -5px rgba(0, 0, 0, 0.19); 
+      
+      & #search-bar-div img {
+        width: 15%;
+        height: 50px;
+      }
+
+      & #search-input {
+        position: relative;
+        width: 85%;
+        height: 90%;
+        justify-content: center;
+        background-color: var(--light-blue);
+        border: none;
+        margin-right: 10px;
+        font-size: 25px;
+        padding: 0 10px 0 10px;
+      }
+      
+    }
+
+    
+  }
+
+  & #course-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+
+    & .course-square {
+      display: flex;
+      height: 200px;
+      background-color: var(--light-blue);
+      text-align: center;
+      justify-content: center;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.2), -5px 5px 5px -5px rgba(0, 0, 0, 0.19); 
+      padding-top: 75px; 
+      color: rgb(48, 48, 48);
+      font-size: 17px;
+    }
+  
+  }
+}
+
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

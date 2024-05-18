@@ -1,0 +1,72 @@
+/* Menu Section */
+.menuSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border: 1px solid red;
+
+}
+
+.header__logo {
+  height: auto;
+  border: 1px solid red;
+  translate: 10px;
+
+
+  & img {
+    height: 70px;
+  }
+}
+
+.header__dropDowns {
+  display: flex;
+  border: 1px solid red;
+  height: auto;
+
+  & div {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 10px;
+
+   
+  }
+}
+
+.header__callHelp {
+  border: 1px solid red;
+  height: auto;
+
+  & img {
+    height: 50px;
+  }
+}
+
+.header__icons {
+  border: 1px solid red;
+  height: auto;
+  translate: -10px;
+
+  & img {
+    height: 40px;
+  }
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

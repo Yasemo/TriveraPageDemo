@@ -1,6 +1,6 @@
 // waits for the DOM to fully load before executing
 document.addEventListener("DOMContentLoaded", () => {
-let poop= "pee";
+
     // search bar
     document.querySelector("#categorySearchBar").addEventListener('input',(input) =>{
         const x = input.target.value.toLowerCase();
@@ -18,7 +18,6 @@ let poop= "pee";
             }
         }
     });
-    let selectedButton = 
     
     // button color swapping
     const buttons = document.querySelectorAll('.toggle-button');
@@ -31,8 +30,9 @@ let poop= "pee";
     });
 }); 
 
-// here's the part where id send da shit to da sever
+// // here's the part where id send da shit to da sever
 async function accountSubmitter(){
     const name = document.querySelector("#nameInput");
     const email = document.querySelector("#emailInput"); 
+    fetch("http://localhost:3000/categories")
 }
