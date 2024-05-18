@@ -1,6 +1,6 @@
 // waits for the DOM to fully load before executing
 document.addEventListener("DOMContentLoaded", () => {
-
+let poop= "pee";
     // search bar
     document.querySelector("#categorySearchBar").addEventListener('input',(input) =>{
         const x = input.target.value.toLowerCase();
